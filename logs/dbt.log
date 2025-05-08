@@ -1,0 +1,30 @@
+[0m09:34:25.983609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1082c7380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e1b530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e1b0e0>]}
+
+
+============================== 09:34:25.987748 | c5123104-37b9-4137-98f0-fe6cd9e863bd ==============================
+[0m09:34:25.987748 [info ] [MainThread]: Running with dbt=1.9.4
+[0m09:34:25.988158 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/Users/moeinfahmide/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init youtube_dbt', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:34:26.000219 [debug] [MainThread]: Starter project path: /Users/moeinfahmide/miniconda3/envs/open-air/lib/python3.12/site-packages/dbt/include/starter_project
+[0m09:34:26.005329 [info ] [MainThread]: 
+Your new dbt project "youtube_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:34:26.005638 [info ] [MainThread]: Setting up your profile.
+[0m09:36:09.658386 [info ] [MainThread]: Profile youtube_dbt written to /Users/moeinfahmide/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:36:09.661594 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 103.74475, "process_in_blocks": "0", "process_kernel_time": 0.141326, "process_mem_max_rss": "108773376", "process_out_blocks": "0", "process_user_time": 0.844467}
+[0m09:36:09.662461 [debug] [MainThread]: Command `dbt init` succeeded at 09:36:09.662364 after 103.75 seconds
+[0m09:36:09.662749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e1b3b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e4eea0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108dcd370>]}
+[0m09:36:09.663203 [debug] [MainThread]: Flushing usage events
+[0m09:36:10.127470 [debug] [MainThread]: An error was encountered while trying to flush usage events

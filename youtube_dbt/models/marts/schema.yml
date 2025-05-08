@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: video_snapshot
+    columns:
+      - name: video_id
+        tests: [unique, not_null]
+
+  - name: channel_summary
+    columns:
+      - name: channel_id
+        tests: [unique, not_null]
+      - name: total_views
+        tests: [not_null]

@@ -1,8 +1,8 @@
-from db.connection import get_connection
 
 import json
 import os
 from dotenv import load_dotenv
+from db.connection import get_connection
 from db.tables import create_raw_videos_table
 from ingestion.fetch_metadata import fetch_ids_page, fetch_video_metadata
 
@@ -10,7 +10,7 @@ load_dotenv()
 
 def insert_raw_videos(cn, items):
     
-    query = """insert into raw_videos (videoId, metadata) values (%s, %s::jsonb) 
+    query = """insert into raw.raw_videos (videoId, metadata) values (%s, %s::jsonb) 
                 ON CONFLICT (videoId)
                 DO UPDATE SET
                 metadata   = EXCLUDED.metadata,

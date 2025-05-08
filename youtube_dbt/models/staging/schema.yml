@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_videos
+    description: "One row per video with key fields extracted"
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique

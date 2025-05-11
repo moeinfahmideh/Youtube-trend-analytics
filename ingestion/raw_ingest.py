@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 from db.connection import get_connection
 from db.tables import create_raw_videos_table
-from ingestion.fetch_metadata import fetch_ids_page, fetch_video_metadata
+from ingestion.fetch_general_videos import fetch_ids_page, fetch_video_metadata
 
 load_dotenv()
 
@@ -21,7 +21,6 @@ def insert_raw_videos(cn, items):
         with cn.cursor() as cur:
             cur.execute(query,(videoId,md))
     cn.commit()
-
 
 def main():
     con = get_connection()

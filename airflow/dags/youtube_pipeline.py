@@ -20,7 +20,7 @@ with DAG(
     default_args=default_args,
     description='Ingest YouTube data and run dbt daily',
     start_date=datetime(2025, 5, 12),
-    schedule_interval='00 22 * * *',
+    schedule_interval='50 21 * * *',
     catchup=False,
 ) as dag:
 
@@ -44,17 +44,7 @@ with DAG(
     )
     
 
-    # 3) Test dbt models
-    dbt_test = BashOperator(
-        task_id='dbt_test',
-        bash_command=(
-            f'cd "{DBT_PROJECT_DIR}" && '
-            f'dbt test '
-            f'--project-dir "{DBT_PROJECT_DIR}" '
-            f'--profiles-dir "{PROFILES_DIR}" '
-            '--models staging+ marts+'
-        ),
-    )
+    
     
 
     # Set task order

@@ -1,7 +1,6 @@
 {{config(materialized='table')}}
 --- returns viral index: video view count / channel subscriber count
 
-
 with vid as (
     select
         id as video_id,

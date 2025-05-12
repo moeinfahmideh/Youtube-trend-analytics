@@ -1,0 +1,14 @@
+# /…/projects/youtube/profiles.yml
+
+youtube_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost # no braces or quotes needed around simple strings
+      user: moein
+      pass: "" # empty string if your database has no password
+      port: 5432 # integer, no braces
+      dbname: youtube
+      schema: clean
+      threads: 1

@@ -1,0 +1,49 @@
+[2025-05-12T22:27:13.752+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-12T22:27:13.767+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_daily_pipeline.dbt_run manual__2025-05-12T21:27:09.718820+00:00 [queued]>
+[2025-05-12T22:27:13.769+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_daily_pipeline.dbt_run manual__2025-05-12T21:27:09.718820+00:00 [queued]>
+[2025-05-12T22:27:13.769+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-05-12T22:27:13.774+0100] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_run> on 2025-05-12 21:27:09.718820+00:00
+[2025-05-12T22:27:13.779+0100] {logging_mixin.py:188} WARNING - /Users/moeinfahmide/miniconda3/envs/open-air/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=7612) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-12T22:27:13.780+0100] {standard_task_runner.py:64} INFO - Started process 7616 to run task
+[2025-05-12T22:27:13.779+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'youtube_daily_pipeline', 'dbt_run', 'manual__2025-05-12T21:27:09.718820+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/youtube_pipeline.py', '--cfg-path', '/var/folders/x8/bvc5rcpd5t12mfz1khbckdsm0000gn/T/tmp3c6j240u']
+[2025-05-12T22:27:13.780+0100] {standard_task_runner.py:91} INFO - Job 34: Subtask dbt_run
+[2025-05-12T22:27:13.798+0100] {task_command.py:426} INFO - Running <TaskInstance: youtube_daily_pipeline.dbt_run manual__2025-05-12T21:27:09.718820+00:00 [running]> on host macbookair.lan
+[2025-05-12T22:27:13.931+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='you' AIRFLOW_CTX_DAG_ID='youtube_daily_pipeline' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2025-05-12T21:27:09.718820+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-12T21:27:09.718820+00:00'
+[2025-05-12T22:27:13.932+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-12T22:27:13.938+0100] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/x8/bvc5rcpd5t12mfz1khbckdsm0000gn/T
+[2025-05-12T22:27:13.939+0100] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd "/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/youtube_dbt" && dbt run --project-dir "/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/youtube_dbt" --profiles-dir "/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube" --models staging+ marts+']
+[2025-05-12T22:27:13.943+0100] {subprocess.py:86} INFO - Output:
+[2025-05-12T22:27:15.071+0100] {subprocess.py:93} INFO - [0m21:27:15  Running with dbt=1.9.4
+[2025-05-12T22:27:15.239+0100] {subprocess.py:93} INFO - [0m21:27:15  Registered adapter: postgres=1.9.0
+[2025-05-12T22:27:15.697+0100] {subprocess.py:93} INFO - [0m21:27:15  Found 10 models, 19 data tests, 433 macros
+[2025-05-12T22:27:15.700+0100] {subprocess.py:93} INFO - [0m21:27:15
+[2025-05-12T22:27:15.700+0100] {subprocess.py:93} INFO - [0m21:27:15  Concurrency: 1 threads (target='dev')
+[2025-05-12T22:27:15.700+0100] {subprocess.py:93} INFO - [0m21:27:15
+[2025-05-12T22:27:15.839+0100] {subprocess.py:93} INFO - [0m21:27:15  1 of 8 START sql table model clean.stg_channels ................................ [RUN]
+[2025-05-12T22:27:15.940+0100] {subprocess.py:93} INFO - [0m21:27:15  1 of 8 OK created sql table model clean.stg_channels ........................... [[32mSELECT 97[0m in 0.10s]
+[2025-05-12T22:27:15.941+0100] {subprocess.py:93} INFO - [0m21:27:15  2 of 8 START sql table model clean.stg_popular_videos .......................... [RUN]
+[2025-05-12T22:27:16.002+0100] {subprocess.py:93} INFO - [0m21:27:16  2 of 8 OK created sql table model clean.stg_popular_videos ..................... [[32mSELECT 101[0m in 0.06s]
+[2025-05-12T22:27:16.005+0100] {subprocess.py:93} INFO - [0m21:27:16  3 of 8 START sql table model clean.stg_videos .................................. [RUN]
+[2025-05-12T22:27:16.121+0100] {subprocess.py:93} INFO - [0m21:27:16  3 of 8 OK created sql table model clean.stg_videos ............................. [[32mSELECT 53[0m in 0.12s]
+[2025-05-12T22:27:16.122+0100] {subprocess.py:93} INFO - [0m21:27:16  4 of 8 START sql table model clean.video_snapshot .............................. [RUN]
+[2025-05-12T22:27:16.167+0100] {subprocess.py:93} INFO - [0m21:27:16  4 of 8 OK created sql table model clean.video_snapshot ......................... [[32mSELECT 53[0m in 0.04s]
+[2025-05-12T22:27:16.168+0100] {subprocess.py:93} INFO - [0m21:27:16  5 of 8 START sql table model clean.channel_growth .............................. [RUN]
+[2025-05-12T22:27:16.217+0100] {subprocess.py:93} INFO - [0m21:27:16  5 of 8 OK created sql table model clean.channel_growth ......................... [[32mSELECT 97[0m in 0.05s]
+[2025-05-12T22:27:16.218+0100] {subprocess.py:93} INFO - [0m21:27:16  6 of 8 START sql table model clean.channel_summary ............................. [RUN]
+[2025-05-12T22:27:16.268+0100] {subprocess.py:93} INFO - [0m21:27:16  6 of 8 OK created sql table model clean.channel_summary ........................ [[32mSELECT 48[0m in 0.05s]
+[2025-05-12T22:27:16.269+0100] {subprocess.py:93} INFO - [0m21:27:16  7 of 8 START sql table model clean.underdog_videos ............................. [RUN]
+[2025-05-12T22:27:16.311+0100] {subprocess.py:93} INFO - [0m21:27:16  7 of 8 OK created sql table model clean.underdog_videos ........................ [[32mSELECT 0[0m in 0.04s]
+[2025-05-12T22:27:16.312+0100] {subprocess.py:93} INFO - [0m21:27:16  8 of 8 START sql table model clean.video_viral_index ........................... [RUN]
+[2025-05-12T22:27:16.356+0100] {subprocess.py:93} INFO - [0m21:27:16  8 of 8 OK created sql table model clean.video_viral_index ...................... [[32mSELECT 101[0m in 0.04s]
+[2025-05-12T22:27:16.368+0100] {subprocess.py:93} INFO - [0m21:27:16
+[2025-05-12T22:27:16.369+0100] {subprocess.py:93} INFO - [0m21:27:16  Finished running 8 table models in 0 hours 0 minutes and 0.67 seconds (0.67s).
+[2025-05-12T22:27:16.392+0100] {subprocess.py:93} INFO - [0m21:27:16
+[2025-05-12T22:27:16.392+0100] {subprocess.py:93} INFO - [0m21:27:16  [32mCompleted successfully[0m
+[2025-05-12T22:27:16.393+0100] {subprocess.py:93} INFO - [0m21:27:16
+[2025-05-12T22:27:16.393+0100] {subprocess.py:93} INFO - [0m21:27:16  Done. PASS=8 WARN=0 ERROR=0 SKIP=0 TOTAL=8
+[2025-05-12T22:27:17.053+0100] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-05-12T22:27:17.054+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-12T22:27:17.063+0100] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=youtube_daily_pipeline, task_id=dbt_run, run_id=manual__2025-05-12T21:27:09.718820+00:00, execution_date=20250512T212709, start_date=20250512T212713, end_date=20250512T212717
+[2025-05-12T22:27:17.070+0100] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-05-12T22:27:17.079+0100] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-12T22:27:17.080+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

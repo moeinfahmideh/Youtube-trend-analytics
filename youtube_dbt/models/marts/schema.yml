@@ -1,14 +1,37 @@
 version: 2
 
 models:
-  - name: video_snapshot
+  - name: channel_growth
     columns:
-      - name: video_id
-        tests: [unique, not_null]
+      - name: channel_id
+        tests: [not_null, unique]
+      - name: avg_daily_gain
+        tests: [not_null]
 
   - name: channel_summary
     columns:
-      - name: channel_id
-        tests: [unique, not_null]
+      - name: title
+        tests: [not_null]
       - name: total_views
+        tests: [not_null]
+
+  - name: underdog_videos
+    columns:
+      - name: video_id
+        tests: [not_null, unique]
+      - name: z_score
+        tests: [not_null]
+
+  - name: video_snapshot
+    columns:
+      - name: title
+        tests: [not_null]
+      - name: like_view_ratio
+        tests: [not_null]
+
+  - name: video_viral_index
+    columns:
+      - name: video_id
+        tests: [not_null, unique]
+      - name: viral_index
         tests: [not_null]

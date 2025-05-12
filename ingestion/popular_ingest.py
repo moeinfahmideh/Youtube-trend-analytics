@@ -54,7 +54,7 @@ def main():
     channel_items = res_channels['items']
     channels_ingest(channel_items)
 
-    while len(channel_ids) < 1: # nextPageToken
+    while len(channel_ids) < 20: # nextPageToken
         res_videos, nextPageToken = fetch_most_popular_ids(nextPageToken)
         items = res_videos ['items']
         popular_videos_ingest(items)

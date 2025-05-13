@@ -38,7 +38,7 @@ airflow dags trigger youtube_daily_pipeline   # or run ingestion/raw_ingest.py m
 
 # 5 — start scheduler + web UI (port 8080) and watch tasks turn 🟩
 airflow scheduler   &   airflow webserver   &
-'''
+`````
 Default schedule: every day at 21:50 UTC. The pipeline keeps exactly the last 30 days of raw data.
 
 ## 🗺️ Project Tour

@@ -1,6 +1,6 @@
 # 📺 YouTube Analytics Pipeline — 30-Day Rolling Window
 
-**Ingest, transform, and surface YouTube metrics end-to-end, policy-compliant, fully automated with Airflow + dbt.**
+**Ingest, transform, and surface YouTube metrics: end-to-end, policy-compliant, fully automated with Airflow + dbt.**
 
 | Layer        | Tech                         |
 | ------------ | ---------------------------- |
@@ -42,6 +42,8 @@ airflow scheduler   &   airflow webserver   &
 
 Default schedule: every day at 21:50 UTC. The pipeline keeps exactly the last 30 days of raw data.
 
+---
+
 ## 🗺️ Project Tour
 
 ```md
@@ -63,6 +65,8 @@ youtube-pipeline/
 └── docs/ ← diagrams, screenshots, policy doc
 ```
 
+---
+
 ## Data Models
 
 | Layer       | Table(s)                                                                                      | Key idea                                                    |
@@ -78,16 +82,29 @@ cd youtube_dbt
 dbt docs generate && dbt docs serve
 ```
 
+---
+
 ## Compliance & Attribution
 
-This project follows the YouTube Data API Terms of Service:
+This project adheres to the **YouTube Data API v3 Terms of Service**. In particular:
 
-Raw public statistics are overwritten every 30 days; marts expose only derived or aggregated fields.
-API key never committed to the repo — it’s injected via .env.
-Attribution link to YouTube in dashboard footer.
-Not affiliated with or endorsed by Google LLC.
-See docs/youtube_data_policy.md for full details.
+- **No raw data republishing**  
+  • We never store or expose the full JSON payloads beyond our internal `raw` schema.  
+  • Only **derived** or **aggregated** metrics (e.g. total views, viral-index ratios) appear in our public marts.
 
-```
+- **30-day retention window**  
+  • Raw API responses are **overwritten or purged** once they are older than 30 days, ensuring we never keep stale public stats.  
+  • Our Airflow DAG enforces this rolling window automatically each night.
 
-```
+- **API key security**  
+  • The YouTube API key is **not** checked into version control—credentials live in a local `.env` file.  
+  • We recommend rotating keys periodically via the Google Cloud Console.
+
+- **Attribution**  
+  • All charts and dashboards include a visible “Powered by YouTube” link back to the official site.  
+  • YouTube’s logos and trademarks are used only in accordance with the [brand guidelines](https://developers.google.com/youtube/branding).
+
+- **No endorsement implied**  
+  • This project is a **personal demonstration** and is **not** affiliated with, sponsored by, or endorsed by Google LLC.
+
+For full details on permitted uses, data retention, quota limits, and branding requirements, see `docs/youtube_data_policy.md`.

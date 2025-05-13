@@ -43,7 +43,7 @@ Default schedule: every day at 21:50 UTC. The pipeline keeps exactly the last 30
 
 ## 🗺️ Project Tour
 ```md
-```text
+
 youtube-pipeline/
 ├── airflow/                ← Airflow home (dags/, logs/, airflow.db)
 │   └── dags/
@@ -60,16 +60,16 @@ youtube-pipeline/
 │       └── marts/
 ├── visualize/              ← Streamlit dashboard (optional)
 └── docs/                   ← diagrams, screenshots, policy doc
-
+`````
 ## 🧩 Data Models
 ```md
-```text
+
 | Layer       | Table(s)                                                                                      | Key idea                                                    |
 | ----------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | **Raw**     | `raw.raw_videos`, `raw.raw_popular_videos`, `raw.raw_channels`                                | JSON blobs exactly as returned by the API (rolling 30 days) |
 | **Staging** | `clean.stg_videos`, `clean.stg_channels`, `clean.stg_popular_videos`                          | Flattened columns, typed; dbt `unique` / `not_null` tests   |
 | **Marts**   | `video_snapshot`, `channel_summary`, `video_viral_index`, `underdog_videos`, `channel_growth` | Viral-index leaderboard, rising channels, growth velocity   |
-'''
+`````
 Generate full docs:
 ```bash
 cd youtube_dbt

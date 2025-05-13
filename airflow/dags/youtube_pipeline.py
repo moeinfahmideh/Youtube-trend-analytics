@@ -20,8 +20,8 @@ with DAG(
     default_args=default_args,
     description='Ingest YouTube data and run dbt daily',
     start_date=datetime(2025, 5, 12),
-    schedule_interval='50 21 * * *',
-    catchup=False,
+    schedule_interval='00 22 * * *',
+    catchup=True,
 ) as dag:
 
 

@@ -3415,3 +3415,359 @@ File Path                                                                       
 -----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
 /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.93s           2025-05-12T21:46:50
 ================================================================================
+[2025-05-12T22:47:21.831+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.24s           2025-05-12T21:47:21
+================================================================================
+[2025-05-12T22:47:53.561+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.55s           2025-05-12T21:47:53
+================================================================================
+[2025-05-12T22:48:24.929+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.18s           2025-05-12T21:48:24
+================================================================================
+[2025-05-12T22:48:55.944+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.93s           2025-05-12T21:48:55
+================================================================================
+[2025-05-12T22:49:26.940+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.91s           2025-05-12T21:49:26
+================================================================================
+[2025-05-12T22:49:45.400+0100] {manager.py:737} INFO - Searching for files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags
+[2025-05-12T22:49:45.402+0100] {manager.py:740} INFO - There are 1 files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags
+[2025-05-12T22:49:57.934+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.91s           2025-05-12T21:49:57
+================================================================================
+[2025-05-12T22:50:28.905+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.88s           2025-05-12T21:50:28
+================================================================================
+[2025-05-12T22:50:59.918+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.89s           2025-05-12T21:50:59
+================================================================================
+[2025-05-12T22:51:30.916+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.94s           2025-05-12T21:51:30
+================================================================================
+[2025-05-12T22:52:02.064+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.99s           2025-05-12T21:52:02
+================================================================================
+[2025-05-12T22:52:33.307+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.18s           2025-05-12T21:52:33
+================================================================================
+[2025-05-12T22:53:04.532+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.17s           2025-05-12T21:53:04
+================================================================================
+[2025-05-12T22:53:35.893+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.31s           2025-05-12T21:53:35
+================================================================================
+[2025-05-12T22:54:07.186+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.24s           2025-05-12T21:54:07
+================================================================================
+[2025-05-12T22:54:38.192+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.95s           2025-05-12T21:54:38
+================================================================================
+[2025-05-12T22:54:46.239+0100] {manager.py:737} INFO - Searching for files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags
+[2025-05-12T22:54:46.241+0100] {manager.py:740} INFO - There are 1 files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags
+[2025-05-12T22:55:09.193+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.95s           2025-05-12T21:55:09
+================================================================================
+[2025-05-12T22:55:33.602+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-12T22:55:42.987+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-05-12T22:55:42.987+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-05-12T22:55:42.987+0100] {manager.py:472} INFO - Checking for new files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags every 300 seconds
+[2025-05-12T22:55:42.987+0100] {manager.py:737} INFO - Searching for files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags
+[2025-05-12T22:55:42.988+0100] {manager.py:740} INFO - There are 1 files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags
+[2025-05-12T22:55:44.077+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.03s           2025-05-12T21:55:44
+================================================================================
+[2025-05-12T22:56:00.743+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-12T22:56:12.141+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-05-12T22:56:12.141+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-05-12T22:56:12.142+0100] {manager.py:472} INFO - Checking for new files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags every 300 seconds
+[2025-05-12T22:56:12.142+0100] {manager.py:737} INFO - Searching for files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags
+[2025-05-12T22:56:12.142+0100] {manager.py:740} INFO - There are 1 files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags
+[2025-05-12T22:56:13.281+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.08s           2025-05-12T21:56:13
+================================================================================
+[2025-05-12T22:56:44.788+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.33s           2025-05-12T21:56:44
+================================================================================
+[2025-05-12T22:57:16.894+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.22s           2025-05-12T21:57:16
+================================================================================
+[2025-05-12T22:57:48.116+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.04s           2025-05-12T21:57:48
+================================================================================
+[2025-05-12T22:58:19.252+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.96s           2025-05-12T21:58:19
+================================================================================
+[2025-05-12T22:58:50.381+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.95s           2025-05-12T21:58:50
+================================================================================
+[2025-05-12T22:59:21.499+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.93s           2025-05-12T21:59:21
+================================================================================
+[2025-05-12T22:59:52.601+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.93s           2025-05-12T21:59:52
+================================================================================
+[2025-05-12T23:00:23.615+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.93s           2025-05-12T22:00:23
+================================================================================
+[2025-05-12T23:00:54.645+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.94s           2025-05-12T22:00:54
+================================================================================
+[2025-05-12T23:01:12.839+0100] {manager.py:737} INFO - Searching for files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags
+[2025-05-12T23:01:12.842+0100] {manager.py:740} INFO - There are 1 files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags
+[2025-05-12T23:01:25.690+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.96s           2025-05-12T22:01:25
+================================================================================
+[2025-05-12T23:01:56.709+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.93s           2025-05-12T22:01:56
+================================================================================
+[2025-05-12T23:02:27.710+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.92s           2025-05-12T22:02:27
+================================================================================
+[2025-05-12T23:02:58.690+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.92s           2025-05-12T22:02:58
+================================================================================
+[2025-05-12T23:03:29.683+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.94s           2025-05-12T22:03:29
+================================================================================
+[2025-05-12T23:04:00.917+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.17s           2025-05-12T22:04:00
+================================================================================
+[2025-05-12T23:04:31.905+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.93s           2025-05-12T22:04:31
+================================================================================
+[2025-05-12T23:05:02.866+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.90s           2025-05-12T22:05:02
+================================================================================
+[2025-05-12T23:05:33.914+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.00s           2025-05-12T22:05:33
+================================================================================
+[2025-05-12T23:06:04.899+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.94s           2025-05-12T22:06:04
+================================================================================
+[2025-05-12T23:06:13.515+0100] {manager.py:737} INFO - Searching for files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags
+[2025-05-12T23:06:13.517+0100] {manager.py:740} INFO - There are 1 files in /Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags
+[2025-05-12T23:06:35.867+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.91s           2025-05-12T22:06:35
+================================================================================
+[2025-05-12T23:07:06.828+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.91s           2025-05-12T22:07:06
+================================================================================
+[2025-05-12T23:07:37.774+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.89s           2025-05-12T22:07:37
+================================================================================
+[2025-05-12T23:08:08.719+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  0.89s           2025-05-12T22:08:08
+================================================================================
+[2025-05-12T23:08:40.114+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/moeinfahmide/Desktop/Job/Learning/Data Engineering/projects/youtube/airflow/dags/youtube_pipeline.py                           1           0  1.34s           2025-05-12T22:08:40
+================================================================================
